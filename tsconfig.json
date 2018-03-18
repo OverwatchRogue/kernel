@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "target": "es5",
+    "module": "commonjs",
+    "outDir": "target/",
+    "declaration": true,
+    "sourceMap": true,
+    "lib": [
+      "es5",
+      "es6"
+    ]
+  },
+  "files": [
+    "node_modules/@types/node/index.d.ts"
+  ],
+  "exclude": [
+    "node_modules/",
+    "target/"
+  ],
+  "include": [
+    "src/**/*"
+  ]
+}

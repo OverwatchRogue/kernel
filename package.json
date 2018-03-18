@@ -4,7 +4,9 @@
   "description": "Overwatch rogue kernel features written in Typescript",
   "author": "OverwatchRogueOwner <overwatch-rogue@opentrash.com>",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "snapshot": "rimraf target/ && tsc -p tsconfig.json"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/OverwatchRogue/kernel.git"
@@ -23,6 +25,7 @@
   },
   "devDependencies": {
     "@types/node": "^9.4.7",
+    "rimraf": "^2.6.2",
     "typescript": "^2.7.2"
   }
 }
