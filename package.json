@@ -1,0 +1,28 @@
+{
+  "name": "@overwatch-rogue/kernel",
+  "version": "0.0.0",
+  "description": "Overwatch rogue kernel features written in Typescript",
+  "author": "OverwatchRogueOwner <overwatch-rogue@opentrash.com>",
+  "license": "MIT",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OverwatchRogue/kernel.git"
+  },
+  "keywords": [
+    "overwatch-rogue",
+    "overwatch",
+    "kernel"
+  ],
+  "peerDependencies": {
+    "windows-build-tools": "^2.2.1"
+  },
+  "dependencies": {
+    "ffi": "^2.2.0",
+    "robotjs": "^0.5.1"
+  },
+  "devDependencies": {
+    "@types/node": "^9.4.7",
+    "typescript": "^2.7.2"
+  }
+}
